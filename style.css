@@ -1,0 +1,61 @@
+.main {
+    margin-top: -10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+    .buttons div {
+        background-color: red;
+        color: white;
+        border: 1px solid black;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+
+.colums {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 606px;
+}
+
+    .colums div {
+        height: 350px;
+    }
+        
+#leftColumn {
+    background-color: blue;
+    width: 100%;
+}
+
+    #leftColumn img {
+        display: inherit;
+        width: 90%;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+#rightColumn {
+    background-color: green;
+    width: 100%;
+}
+
+    #rightColumn img {
+        display: inherit;
+        width: 90%;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
